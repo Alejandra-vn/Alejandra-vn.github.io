@@ -1,0 +1,175 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+header{
+    background-color: #131842;
+}
+header span{
+    color: #f8eded;
+}
+.nav-item a{
+    color: #f8eded;
+}
+.nav-item a:visited{
+    color: #f8eded;
+}
+.nav-item a:hover{
+    color: #EE4E4E;
+}
+#nav-button{
+    background-color: #C80036;
+}
+.hi{
+    color: black;
+    font-size: 10px;
+}
+.icon-square .bi{
+    background-color: #DCA47C;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 4px;
+}
+
+.img-proyecto1{
+    background-image: url('/assets/pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-proyecto1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.img-proyecto1 .d-flex.flex-column{
+    position: relative;
+    z-index: 2;  
+}
+
+.img-proyecto2{
+    background-image: url('/assets/tutoria.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-proyecto3{
+    background-image: url('/assets/conejos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.foto-personal {
+    width: 300px;
+    height: 400px;
+    object-fit:cover; /* Mantener la proporción de la imagen, cortando los bordes si es necesario */
+}
+.bi{
+    color: black;
+    font-size: 1cm;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+footer .icon-footer i{
+    color:rgb(250, 250, 250);
+}
+footer p{
+    color:rgb(255, 250, 250);
+}
+footer p a{
+    color: #e0b8ba;
+}
+
+
+#sobre-mi {
+    background-color: #F6F5F2;
+}
+  
+  /* Estilo de las columnas */
+  .row-cols-1 .col,
+  .row-cols-sm-2 .col,
+  .row-cols-md-3 .col,
+  .row-cols-lg-4 .col {
+    background-color: #FBF9F1;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover en las columnas */
+  .col:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsivo */
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 2rem;
+    }
+  
+    h3 {
+      font-size: 1.30rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+.img-proyecto1-link,
+.img-proyecto2-link,
+.img-proyecto3-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; /* Opcional: para quitar el subrayado del enlace */
+}
+
+.img-proyecto1,
+.img-proyecto2,
+.img-proyecto3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+/* Estilo personalizado para el carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #131842;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Estilo para el texto del card */
+.card-text {
+    overflow: visible; /* Asegura que el texto se muestre completo */
+    white-space: normal; /* Permite el ajuste del texto */
+}
+
+.btn-primary {
+    display: none; /* Oculta los botones ya que no los necesitamos */
+}
+
+
+  
+
+
+
+  
